@@ -9,3 +9,14 @@
 - ¿Cual es la diferencia entre pila, cola y lista?
 >
 ## Documentación
+### Clase Shape
+Está clase es solo una clase abstracta que contiene dos métodos sin una acción directa.
+
+    public interface Shape {
+    
+      public double getArea();
+      public String toString();
+    }
+###Clase Rectangle
+Al inicializar está clase se agrega la sentencia "implements Shape", para que la clase pueda tomar la forma de Shape, es decir, utilizar los métodos que tiene Shape a su propia conveniencia
+
