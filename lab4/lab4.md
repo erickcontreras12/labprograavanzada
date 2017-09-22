@@ -35,7 +35,7 @@ Los prototipos de la calculador de valor hacen una llamada a los métodos que se
      void divisionPunteros(int,int,int*);
 
 ## Operaciones por referencia
-Las operaciones por referencia reciben un parámetro extra que es de tipo 'int*' que es un llamado a un puntero para cambiar el valor de una variable ya inicializada. 
+Las operaciones por referencia reciben un parámetro extra que es de tipo 'int*' que es un llamado a un puntero para cambiar el valor de una variable ya inicializada haciendo llamado a la dirección de memoria donde se encuentra la variable. 
 
      void sumaPunteros(int a, int b,int* resultado){
           *resultado = a+b;
